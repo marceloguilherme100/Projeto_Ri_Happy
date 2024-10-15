@@ -1,6 +1,6 @@
 # Desafio 01: Criando  primeira Landing Page com HTML e CSS
 
-Bem vindo(a) ao primeiro desafio da Trilha de CSS da DIO! 
+Bem vindo(a) ao  desafio da Trilha de CSS da DIO! 
 
 [Clique aqui](https://marceloguilherme100.github.io/Projeto_Ri_Happy/) para acessar o resultado final da Landing Page criada a partir do desafio!
 
