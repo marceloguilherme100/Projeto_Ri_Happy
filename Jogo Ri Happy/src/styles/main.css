@@ -13,7 +13,7 @@
     width: 100%;
     background-color: #080808;
     color: #ffffff;
-    border-bottom: 5px solid #0000ff;
+    border-bottom: 5px solid #87cefa;
 }
 
 .panel {
@@ -29,13 +29,13 @@
     height: 150px;
     width: 150px;
     border: 1px solid #000000;
-    background-color: #ff0000;
+    background-color: #87cefa;
 }
 
 .enemy {
     background-image: url("../images/mario.png");
     background-size: cover;
-    background-color: #ff0000;
+    
     
 }
 
