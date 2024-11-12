@@ -10,7 +10,7 @@ const state = {
         gameVelocity: 1000,
         hitPosition: 0,
         result: 0,
-        currentTime: 10, 
+        currentTime: 30, 
         lives: 3,
     },
     actions: {
@@ -32,7 +32,7 @@ function countDown() {
 
         // Se ainda houver vidas, reinicia o tempo
         if (state.values.lives > 0) {
-            state.values.currentTime = 10; // Resetando o tempo para 60 segundos
+            state.values.currentTime = 30; // Resetando o tempo para 60 segundos
         } else {
             // Se não houver mais vidas, finaliza o jogo
             clearInterval(state.actions.timerId);
