@@ -1,29 +1,56 @@
-# Detona Mario
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detona Mario</title>
 
-Detona Mario é um jogo simples e divertido baseado em um conceito clássico de "matar inimigos" com um toque de nostalgia. O objetivo é acertar os quadrados inimigos que aparecem aleatoriamente na tela enquanto você tem um tempo limitado e um número de vidas. O jogo termina quando o tempo se esgota ou quando você perde todas as suas vidas.
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
-## Como Jogar
+<link rel="stylesheet" href="./styles/main.css">
+<link rel="stylesheet" href="./styles/reset.css">
 
-1. **Início do Jogo**: O jogo começa com 60 segundos de tempo e 3 vidas. O objetivo é clicar nos quadrados que aparecem aleatoriamente na tela, que são os "inimigos".
-2. **Pontuação**: Cada vez que você clicar no inimigo, sua pontuação aumentará.
-3. **Vidas**: Você começa com 3 vidas. Cada vez que o tempo se esgota (sem clicar no inimigo), você perde uma vida. O jogo termina quando todas as suas vidas se esgotam.
-4. **Som**: O jogo toca sons quando você acerta os inimigos e quando o jogo termina.
+</head>
+<body>
 
-## Funcionalidades
+    <div class="container">
+        <div class="menu">
+            <div class="menu-time">
+                <h2 style="color: red;">Time Left</h2>
+                <h2 id="time-left">0</h2>
+            </div>
+            <div class="menu-score">
+                <h2 style="color: red;">Your Score</h2>
+                <h2 id="score">0</h2>
+            </div>
+            <div class="menu-lives">
+                <img src="./images/life.png" height="50px" />
+                <h2 id="lives">x3</h2>
+            </div>
+        </div>
 
-- **Contador de Tempo**: O jogo tem um contador regressivo de 60 segundos. O tempo diminui enquanto você joga.
-- **Pontuação**: Sua pontuação aumenta sempre que você acerta um inimigo.
-- **Vidas**: Você começa com 3 vidas. Cada vez que o tempo se esgota, você perde uma vida. O jogo termina quando você perde todas as suas vidas.
-- **Som**: Sons são reproduzidos para acertos e para o fim de jogo.
+        <div class="panel">
+            <div class="panel-row">
+                <div class="square " id="1"></div>
+                <div class="square" id="2"></div>
+                <div class="square" id="3"></div>
 
-## Tecnologias Utilizadas
+               </div><div class="panel-row">
+                <div class="square" id="4"></div>
+                <div class="square" id="5"></div>
+                <div class="square" id="6"></div>
 
-- **HTML5**
-- **CSS3** (para estilos)
-- **JavaScript** (para lógica do jogo e interatividade)
-
-## Como Rodar o Jogo Localmente
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/detona-mario.git
+               </div><div class="panel-row">
+                <div class="square enemy" id="7"></div>
+                <div class="square" id="8"></div>
+                <div class="square" id="9"></div>
+               </div>
+            
+         </div>
+    </div>
+  
+    <script defer src="./scripts/engine.js"></script>
+</body>
+</html>
