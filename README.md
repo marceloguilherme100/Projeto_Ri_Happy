@@ -1,6 +1,7 @@
 # Detona Mario
 
-![Papel de Parede](Jogo%20Ri%20Happy/src/images/papel%20de%20parede.png)
+![Papel de Parede](images/papel%20de%20parede.png)
+
 
 Detona Mario é um jogo simples e divertido baseado em um conceito clássico de "matar inimigos" com um toque de nostalgia. O objetivo é acertar os quadrados inimigos que aparecem aleatoriamente na tela enquanto você tem um tempo limitado e um número de vidas. O jogo termina quando o tempo se esgota ou quando você perde todas as suas vidas.
 
